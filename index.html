@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Github_mimic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="font_style_bold">
+  <header>
+    <nav id="nav">
+      <nav id="navLeft">
+        <img src="images/github_icon_small.png" alt="">
+        <img id="bullet" src="images/bullet.png" alt="">
+        <form id="search" action="">
+          <input id="searchInput" type="search" placeholder="Search or Type Command">
+        </form>
+        <div class="navLinks"><a href="">Explore</a></div>
+        <div class="navLinks"><a href="">Gist</a></div>
+        <div class="navLinks"><a href="">Blog</a></div>
+        <div class="navLinks"><a href="">Help</a></div>
+      </nav>
+      <nav id="navRight">
+        <img src="" alt="">
+        <span> </span>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </nav>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="left">
+      <!--insert profile through jQuery here*/-->
+    </div>
+    <div class="meat">
+      <nav id="meatNav">
+        <div id="tabs">
+          <div id="contriTab"><span class="octicon octicon-diff-added"></span>     Contributions</div>
+          <div id="repoTab" class="selectedTab"><span class="octicon octicon-repo"></span>     Repositories</div>
+          <div id="publicTab"><span class="octicon octicon-rss"></span>     Public Activity</div>
+          <button id="editProfile"><span class="octicon octicon-pencil"></span>      Edit Profile</button>
+        </div>
+      </nav>
+
+      <nav id="searchMeat">
+        <form action="">
+          <input id="inputMeatSearch" type="search" placeholder="Find a repository...">
+          <button id="inputMeatSubmit">Search</button>
+        </form>
+        <span>
+          <a class="searchBlack" href="">All</a>
+          <a class="searchBlue" href="">Public</a>
+          <a class="searchBlue" href="">Private</a>
+          <a class="searchBlue" href="">Sources</a>
+          <a class="searchBlue" href="">Forks</a>
+          <a class="searchBlue" href="">Mirrors</a>
+        </span>
+        <button id="newRepo"><span class="octicon octicon-repo">      New</button>
+      </nav>
+      <ul id="article" class="reposList">
+
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <ul class="footLeft">
+      <li>&#169 2014 GitHub, Inc.</li>
+      <li><a href="" class="blueFoot">Terms</a></li>
+      <li><a href="" class="blueFoot">Privacy</a></li>
+      <li><a href="" class="blueFoot">Security</a></li>
+      <li><a href="" class="blueFoot">Contact</a></li>
+    </ul>
+    <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    <ul class="footRight">
+      <li><a href="" class="blueFoot">Status</a></li>
+      <li><a href="" class="blueFoot">API</a></li>
+      <li><a href="" class="blueFoot">Training</a></li>
+      <li><a href="" class="blueFoot">Shop</a></li>
+      <li><a href="" class="blueFoot">Blog</a></li>
+      <li><a href="" class="blueFoot">About</a></li>
+    </ul>
+  </footer>
+
+<script type="text/javascript" src="node_modules/underscore/underscore.js"></script>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/moment/moment.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,322 @@
+.font_style {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.font_style_bold {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold; }
+
+body {
+  margin: 0px;
+  padding-top: 0px auto; }
+
+header {
+  position: relative;
+  background-color: #F5F5F5;
+  height: 40px;
+  border-bottom: 1px solid #e5e5e5; }
+  header #nav {
+    width: 980px;
+    align: center;
+    margin: 0px auto;
+    padding: 0px, auto;
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative; }
+    header #nav #navLeft {
+      display: inline-block;
+      float: left; }
+      header #nav #navLeft img {
+        display: inline-block;
+        position: relative;
+        padding-top: 5px;
+        padding-right: 8px; }
+      header #nav #navLeft #bullet {
+        vertical-align: top;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-right: 1px solid #e5e5e5;
+        border-left: 1px solid #e5e5e5; }
+      header #nav #navLeft #search {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        padding-top: 5px;
+        padding-left: 10px; }
+        header #nav #navLeft #search #searchInput {
+          width: 210px;
+          height: 30px;
+          box-sizing: 20px;
+          border-radius: 5px;
+          border: 2px solid #e5e5e5;
+          background-color: #e5e5e5; }
+      header #nav #navLeft .navLinks {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        padding-left: 12px;
+        padding-bottom: 10px;
+        vertical-align: middle;
+        height: 30px; }
+        header #nav #navLeft .navLinks a {
+          position: relative;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: .9em;
+          vertical-align: top;
+          margin-top: 10px; }
+        header #nav #navLeft .navLinks a:hover {
+          color: #4183c4; }
+    header #nav #navRight {
+      display: inline-block;
+      float: right; }
+
+.main {
+  width: 1000px;
+  position: relative;
+  margin: 0px auto;
+  clear: right;
+  padding-top: 20px; }
+  .main .left {
+    display: inline-block;
+    width: 230px;
+    padding: 10px;
+    padding: 0px 10px; }
+    .main .left .avatar-pic {
+      width: 230px;
+      border-radius: 10px; }
+    .main .left h1 {
+      margin: 5px auto;
+      font-size: 1.75em; }
+    .main .left h2 {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      font-size: 1.25em;
+      color: #666666;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    .main .left .contact {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      vertical-align: center; }
+      .main .left .contact .mini-icon {
+        padding-right: 5px; }
+    .main .left #id {
+      margin-top: 15px; }
+
+#email a {
+  color: #4183C4;
+  text-decoration: none; }
+#email a:hover {
+  color: #8143C4;
+  text-decoration: underline; }
+
+.social {
+  text-align: center;
+  padding: 5px; }
+  .social .mini-social {
+    display: inline-block;
+    width: 72px;
+    margin: 0 auto; }
+    .social .mini-social p:nth-child(1) {
+      font-size: 1.75em;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .social .mini-social p:nth-child(2) {
+      font-size: 0.75em;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      color: #999999; }
+
+.meat #tabs {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #e5e5e5; }
+  .meat #tabs div {
+    display: inline-block;
+    position: relative;
+    color: darkgrey;
+    font-weight: 100;
+    padding: 10px; }
+  .meat #tabs .selectedTab {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    border-bottom: 2px solid white; }
+  .meat #tabs #editProfile {
+    display: inline-block;
+    float: right;
+    width: 120px;
+    height: 30px;
+    color: black;
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px; }
+.meat #searchMeat {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+  .meat #searchMeat form {
+    display: inline-block; }
+    .meat #searchMeat form #inputMeatSearch {
+      width: 242px;
+      height: 36px;
+      padding: 7px 8px;
+      border-radius: 5px; }
+    .meat #searchMeat form #inputMeatSubmit {
+      width: 66px;
+      height: 36px;
+      border-radius: 3px;
+      background-color: #e5e5e5;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+  .meat #searchMeat span .searchBlack {
+    color: black;
+    text-decoration: none;
+    margin-left: 35px; }
+  .meat #searchMeat span .searchBlack:hover {
+    text-decoration: underline; }
+  .meat #searchMeat span .searchBlue {
+    color: #4183c4;
+    text-decoration: none;
+    margin-left: 5px; }
+  .meat #searchMeat span .searchBlue:hover {
+    text-decoration: underline; }
+  .meat #searchMeat #newRepo {
+    display: inline-block;
+    position: relative;
+    height: 36px;
+    width: 66px;
+    color: white;
+    background-color: #81D364;
+    border-radius: 3px;
+    text-align: middle;
+    float: right;
+    font-weight: bold; }
+
+.meat {
+  display: inline-block;
+  max-width: 722px;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .meat .reposList {
+    font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.4;
+    width: 724px;
+    padding-left: 0px; }
+    .meat .reposList li {
+      position: relative;
+      min-height: 66px;
+      padding-bottom: 20px;
+      margin: 0 0 20px;
+      list-style: none;
+      border-bottom: 1px solid #eee; }
+      .meat .reposList li .repoIcon {
+        position: absolute;
+        left: 5px;
+        top: 15px; }
+      .meat .reposList li h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px; }
+        .meat .reposList li h3 span {
+          color: #e5e5e5; }
+        .meat .reposList li h3 a {
+          font-size: 1.4em;
+          padding-left: 10px;
+          text-decoration: none;
+          color: #4183c4; }
+        .meat .reposList li h3 a:hover {
+          text-decoration: underline; }
+        .meat .reposList li h3 div {
+          display: inline-block;
+          float: right;
+          vertical-align: top; }
+          .meat .reposList li h3 div span {
+            padding-left: 15px;
+            color: #888888;
+            font-size: 11px;
+            font-weight: 510; }
+            .meat .reposList li h3 div span .infoIcons {
+              width: 12px; }
+      .meat .reposList li p {
+        padding-left: 45px;
+        margin: 0px;
+        color: #999999; }
+  .meat .publicList {
+    font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.4;
+    width: 724px;
+    padding-left: 0px; }
+    .meat .publicList li {
+      position: relative;
+      min-height: 30px;
+      padding-bottom: 0px;
+      margin: 0 0 5px;
+      list-style: none;
+      border-bottom: 1px solid #eee; }
+      .meat .publicList li .publicImage {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #BBBBBB; }
+      .meat .publicList li .publicContent {
+        display: inline-block;
+        position: relative;
+        padding: 12px 5px 20px 45px;
+        color: #666666;
+        font-size: 14px; }
+        .meat .publicList li .publicContent a {
+          color: #4183c4;
+          text-decoration: none; }
+        .meat .publicList li .publicContent a:hover {
+          text-decoration: underline; }
+      .meat .publicList li .publicTime {
+        display: inline-block;
+        position: relative;
+        color: #BBBBBB;
+        padding-left: 5px;
+        max-width: 50px;
+        overflow: none; }
+
+footer {
+  position: relative;
+  width: 1000px;
+  margin: 0px auto;
+  margin-top: 125px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-top: 2px solid #e5e5e5; }
+  footer ul {
+    display: inline-block;
+    position: relative;
+    padding-left: 0; }
+    footer ul li {
+      display: inline-block;
+      position: relative;
+      padding: 0px 5px;
+      font-size: 13px;
+      font-weight: 100;
+      font-family: 'Roboto', sans-serif; }
+      footer ul li .blueFoot {
+        color: #4183c4;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif; }
+      footer ul li .blueFoot:hover {
+        text-decoration: underline; }
+  footer span {
+    position: absolute;
+    left: 50%;
+    color: #BBBBBB;
+    font-size: 12px; }
+  footer .footLeft {
+    float: left; }
+  footer .footRight {
+    float: right; }
