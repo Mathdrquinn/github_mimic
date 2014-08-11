@@ -8,7 +8,8 @@ var Mathdrquinn = {
   public_gists: 0,
   followers: 10,
   following: 10,
-  created_at: "2014-03-14T02:51:14Z"
+  created_at: "2014-03-14T02:51:14Z",
+  cleanDate: new Date ("2014-03-14")
 };
 
 var reposArr = [
@@ -873,6 +874,38 @@ var reposArr = [
     "default_branch": "master"
   }
 ];
+
+//I can't believe this mumble of code works.
+//age is an empy array made to show that the updates are in order.  It has no other use.
+/*var age = [];*/
+
+//This function order reposArr from line 15 by youngest to oldest.  Uses added property ageOld which is added to each object in the array
+var order = function (array) {
+  //for loop goes through each element
+  for (var i = 0; i < array.length; i++) {
+    //moment().fromNow() finds the age, .split makes the age an arry whose [0] is the days old of the repo item
+    // and the Number() turns that days old into a number to be sorted (can't sort string numbers)
+    var ageMoment = Number(moment(array[i].created_at).fromNow().split(' ')[0]);
+    //age.push(ageMoment);
+
+    //adds prop with value of age as an int
+    array[i].ageOld = ageMoment;
+    //console.log(ageMoment);
+  }
+  //sorting funciton found on
+  //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+  reposArr.sort(function (a, b) {
+    if (a.ageOld > b.ageOld)
+      return 1;
+    if (a.ageOld < b.ageOld)
+      return -1;
+    // a must be equal to b
+    return 0;
+});
+  //return age;
+};
+
+order(reposArr);
 
 var publicArr = [
   {

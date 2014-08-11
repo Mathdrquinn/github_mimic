@@ -72,7 +72,24 @@ header {
           color: #4183c4; }
     header #nav #navRight {
       display: inline-block;
-      float: right; }
+      float: right;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Condensed', sans-serif; }
+      header #nav #navRight li {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: .9em;
+        vertical-align: top;
+        margin-top: 10px;
+        margin-left: 10px; }
+        header #nav #navRight li img {
+          width: 20px; }
+      header #nav #navRight li:hover {
+        color: #4183c4; }
 
 .main {
   width: 1000px;
